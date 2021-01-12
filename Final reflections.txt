@@ -1,0 +1,15 @@
+
+
+
+What is the advantage (if any) for a REST-based API of using JWT’s compared to session Cookies
+	- The advantage is that the token gets saved on the client instead of on the server. If the token was saved on the server, we might not hit 
+	  the same server the next time we want to login, and therefor cant access our token and wont get logged in.  
+
+
+What is the disadvantage (if any) with the implemented JWT-solution
+	- If a employee of a firm leaks the key, then everything will be compromised.
+	- If you try to logout then the token will still be saved for a time whitch means you cant login again before the token expire.
+
+
+What will a client (Single Page WEB, Mobile App, etc.) have to do in order to use this API
+	- A login page and different users. 

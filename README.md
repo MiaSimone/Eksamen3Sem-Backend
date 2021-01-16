@@ -1,8 +1,16 @@
 [![Build Status](https://travis-ci.com/MiaSimone/CA3-part2-backend.svg?branch=master)](https://travis-ci.com/MiaSimone/CA3-part2-backend)
 
-# Getting Started
+1. As a member i want to see a list of all the book titles (including the ones that are loaned).
 
-You have to clone this project for the backend and this project for the frontend: https://github.com/MiaSimone/CA3-part2-frontend.
+2. As a member i want to be able to search for a specific book.
 
+3. As a member i want to be able to make a reservation and get a response on when the book is available.
 
-In the frontend project you will need to change the url in settings.js to the remote server when deploying. It sould work without changing it when using it locally.
+4. As a member i want to be able to loan a book and get a response on when to return the book.
+
+5. As an admin i want to be able to add new books.
+
+6. As an admin i want to be able to edit books.
+
+7. As an admin i want to be able to delete books.
+

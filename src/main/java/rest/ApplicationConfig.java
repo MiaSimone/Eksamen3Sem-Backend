@@ -22,8 +22,10 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(cors.CorsFilter.class);
         resources.add(errorhandling.GenericExceptionMapper.class);
+        resources.add(exceptions.BookNotFoundMapper.class);
+        resources.add(exceptions.MissingInputMapper.class);
         resources.add(org.glassfish.jersey.server.wadl.internal.WadlResource.class);
-        resources.add(rest.CharacterResource.class);
+        resources.add(rest.LibraryResource.class);
         resources.add(rest.LoginResource.class);
         resources.add(security.JWTAuthenticationFilter.class);
         resources.add(security.LoginEndpoint.class);

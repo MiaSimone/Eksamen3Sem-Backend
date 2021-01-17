@@ -19,9 +19,9 @@
       <property name="eclipselink.logging.parameters" value="true"/>
       <!-- In PRODUCTION the values below, will be overriden by utils.EMF_Creator -->
       
-    <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.123.64:3306/eksamen3sem?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
-    --><property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eksamen3sem?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
-      
+    <property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.123.64:3306/eksamen3sem?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eksamen3sem?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      -->
       <property name="javax.persistence.jdbc.user" value="dev"/>
       <property name="javax.persistence.jdbc.password" value="ax2"/>
     </properties>
@@ -36,9 +36,9 @@
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="eclipselink.canonicalmodel.subpackage" value="ghy636765"/>
       
-    <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.123.64:3306/eksamen3sem_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
-    --><property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eksamen3sem_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
-      
+    <property name="javax.persistence.jdbc.url" value="jdbc:mysql://157.230.123.64:3306/eksamen3sem_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+    <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/eksamen3sem_test?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      -->
       <property name="javax.persistence.jdbc.user" value="dev"/>
       <property name="javax.persistence.jdbc.password" value="ax2"/>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>

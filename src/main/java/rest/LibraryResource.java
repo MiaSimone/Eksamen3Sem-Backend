@@ -42,7 +42,7 @@ public class LibraryResource {
     @GET
     @Produces({MediaType.APPLICATION_JSON})
     public String demo() {
-        return "{\"msg\":\"Welcome to the library\"}";
+        return "{\"msg\":\"Welcome to the MIAAAAA\"}";
     }
 
 
@@ -69,9 +69,12 @@ public class LibraryResource {
     @Produces(MediaType.APPLICATION_JSON)
     public String addBook(String book) throws MissingInput {
        BookDTO bDTO = GSON.fromJson(book, BookDTO.class); 
+       
        Book b = new Book(bDTO.getIsbn(), bDTO.getTitle(), bDTO.getAuthors(), 
                bDTO.getPublisher(), bDTO.getPublishYear());
+       
         System.out.println("YEAR: " + b.getPublishYear());
+        
        String libraryName = bDTO.getLibraryName();
        
        BookDTO bAdded = FACADE.addBook(b, libraryName);
